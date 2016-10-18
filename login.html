@@ -1,0 +1,36 @@
+<!-- Tania Bakshi ICS3UR, January Monday 18th 2016 -->
+<!DOCTYPE html>
+<html>
+    <head>
+<!-----------------------------------------------Links--------------------------------------------------->
+        <link rel="stylesheet" type="text/css" href="logdesign.css">
+        <script src = "loginJS.js"></script>
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="Tania Bakshi">
+        <title> Login </title>
+    </head>
+    <body>    
+        <div class="login-card">
+            <img src="rsz_logo.gif" alt="North Park Logo" >
+
+            <h1>Welcome Vikings! Log-in</h1><br>
+<!------------------------------------- Start of Loign Form --------------------------------------------->
+            <form>
+                <input type="text" id="studentnumber" placeholder="Student Number" required>
+                <input type="password" id="pass" placeholder="Password" required>
+                <input type="submit" id="login" class="login login-submit" value="Login" onclick="signin()">
+            </form>
+<!----------------------------------------- End of Login Form ------------------------------------------->
+            <div class="login-help"> <!-- Link to New Account Page --->  
+                <a href="NewAccount.html">Register</a>
+            </div>
+            
+        </div>
+
+        <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+        <script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script>
+    </body>
+</html> 
